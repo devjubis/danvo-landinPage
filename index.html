@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Danvo - Landin Page</title>
+</head>
+<body>
+    <main>
+        <header class="container-header">
+
+            <!-- LOGO -->
+            <div class="logo">
+                <img src="img/logo-danvo.png" alt="Logo da Danvo">
+                <h1>Danvo</h1>
+            </div>
+
+            <!-- MENU e BOTÃO -->
+            <ul>
+                <li><a href="#">Futuro</a></li>
+                <li><a href="#">Preço</a></li>
+                <li><a href="#">Provas Social</a></li>
+                <li><a href="#" class="btn">Sing up</a></li>
+            </ul>
+        </header>
+
+        <aside>
+            <!-- MENU RESPONSIVO-->
+            <div class="icon-menu" onclick="openMenu()">
+                <span><ion-icon name="menu-outline"></ion-icon></span>
+            </div>
+
+            <!-- BARRA MENU-->
+            <div id="beam-menu">
+                    <ul class="links">
+                        <li><a href="#">Futuro</a></li>
+                        <li><a href="#">Preço</a></li>
+                        <li><a href="#">Provas Social</a></li>
+                        <li><a href="#" class="btn">Sing up</a></li>
+                    </ul>>
+                    
+                    <!--ICON-->
+                    <div class="container-icon">
+                        <span class="icon"><ion-icon name="logo-instagram"></ion-icon></span>
+                        <span class="icon"><ion-icon name="logo-facebook"></ion-icon></span>
+                        <span class="icon"><ion-icon name="logo-twitter"></ion-icon></span>
+                    </div>
+            </div>
+        </aside>
+
+        <!-- CORPO DO SITE -->
+        <main class="center">
+            <!-- DIV ESQUERDA-->
+            <div class="left">
+                <!-- TÍTULO-->
+                <div class="title">
+                    <h1>O futuro está aqui</h1>
+                    <h1>Comece a explorar agora</h1>
+                </div>
+
+                <!--PARAGRAFO-->
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                     <br> Laudantium voluptatem tempore natus quisquam aliquid repudiandae 
+                </p>
+
+                <!--BOTÃO-->
+                <div class="cta">
+                    <button>Comece agora</button>
+                </div>
+            </div>
+
+            <!-- DIV DIREITA-->
+            <div class="rigth"><img src="img/person.png" alt="imagem person"></div>
+        </main>
+
+        <!-- RODAPÉ-->
+        <footer class="footer">&copy; Todos os direitos reservados - Juliana Castro</footer>
+    </main>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
